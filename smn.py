@@ -65,7 +65,7 @@ def sihab():
 	key=f"SIHAB_{y}_PAID"
 	row=httpx.get("https://github.com/Devilshallock099/Repository/blob/row/new2.txt").text
 	if key in row:
-	    menu()
+	    def menu()
 	else:
 		   os.system("clear")
 		   print(logo)				
